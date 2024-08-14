@@ -1,0 +1,313 @@
+/* global css korlam */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* sob gula a tag er kahini finish dilam */
+  a {
+    text-decoration: none;
+  }
+  
+  /* sobgula container er kahini finish */
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  /* Section One (BANNER) */
+  
+  .banner {
+      height: 780px;
+      background:url(img/Hero-BG.jpg) no-repeat no-repeat center;
+  }
+  
+  .banner .banner-ma {
+      display: flex;
+  }
+  
+  .banner .banner-ma .banner-son {
+      color: #0365C4;
+      padding: 175px 0px;
+  }
+  
+  .banner .banner-ma .banner-son h2 {
+      font-weight: 700;
+      font-size: 45px;
+      padding-bottom: 30px;
+      line-height: 50px;
+  }
+  
+  .banner .banner-ma .banner-son p {
+      font-size: 22px;
+      font-weight: 300;
+      padding-bottom: 35px;
+      line-height: 28px;
+      text-align: left;
+  }
+  
+  .banner .banner-ma .banner-son a {
+      border: 2px solid #0365C4;
+      padding: 15px 30px;
+      border-radius: 10px;
+      background-color: #0365C4;
+      color: white;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+  }
+  
+  .banner .banner-ma .banner-son a:hover {
+      background-color: #04aeef;
+      border: 2px solid #04aeef;
+      transition: 0.4s;
+  }
+  
+  .banner .banner-ma .banner-pic {
+    margin-top: 20px;
+      position: absolute;
+      right: -30px;
+  }
+  
+                                /* Optional Card Section */
+  
+  .card {
+      padding: 20px;
+  }
+  /* card gular icon setup dilam  */
+   .card-parrents i{
+    font-size: 30px;
+  } 
+  
+  .card .card-parrents {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 30px;
+  }
+  
+  .card .card-parrents .card-1,
+  .card-2,
+  .card-3 {
+      border: 1px solid #F9799A;
+      background-color: #F9799A;
+      color: white;
+      display: flex;
+      padding: 25px 10px;
+      border-radius: 10px;
+  
+  }
+  
+  .card .card-parrents .card-1:hover,
+  .card .card-parrents .card-2:hover,
+  .card .card-parrents .card-3:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 25px -5px, rgba(0, 0, 0, 0.3) 0px 5px 10px -5px;
+    transition: 0.2s;
+  }
+  
+  .card .card-parrents .icon {
+      font-size: 20px;
+  }
+  
+  .card .card-parrents .card-2 {
+      border: 1px solid #61C4D8;
+      background-color: #61C4D8;
+      color: white;
+      display: flex;
+      padding: 25px 15px;
+      border-radius: 10px;
+  }
+  
+  .card .card-parrents .card-3 {
+      border: 1px solid #0F72CC;
+      background-color: #0F72CC;
+      color: white;
+      display: flex;
+      padding: 25px 15px;
+      border-radius: 10px;
+  }
+  
+  .card .card-parrents .card-content {
+      margin-left: 15px;
+  }
+  
+  .card .card-parrents .card-content h2 {
+      font-size: 18px;
+      position: relative;
+      bottom: 5px;
+      padding-bottom: 15px;
+  }
+  
+  .card .card-parrents .card-content p {
+      line-height: 25px;
+      font-size: 15px;
+  }
+  
+                  /* Second Section (Project) */
+  
+  .project {
+      padding: 75px 0;
+  }
+  
+  .project .project-parrents {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .project .project-parrents .project-content h4 {
+  
+    font-size: 24px;
+    color: #17153c;
+    padding-bottom: 15px;
+      font-weight: 300;
+  }
+  
+  .project .project-parrents .project-content h1 {
+      font-size: 45px;
+      color: #07324F;
+      font-weight: 700;
+      padding-bottom: 30px;
+      line-height: 46px;
+  }
+  
+  .project .project-parrents .project-content p {
+      line-height: 30px;
+      color: #3B3B3B;
+      font-size: 16px;
+  }
+  
+  .project .project-parrents .project-content .project-btn {
+      padding: 50px 0;
+  }
+  
+  .project .project-parrents .project-content a {
+    border: 2px solid #0365C4;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #0365C4;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .project .project-parrents .project-content a:hover {
+      border: 2px solid #04aeef;
+      background-color: #04aeef;
+      transition: 0.4s;
+  }
+  
+                                      /* 3rd Section(Support) */
+  
+  .support {
+      background-color: #526375 !important;
+      background: #526375 !important;
+  }
+  
+  .support .support-parrents {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 35px;
+  }
+  
+  .support .support-parrents .support-content h1 {
+      font-size: 48px;
+      color: #07324F;
+      font-weight: 700;
+      padding-bottom: 30px;
+  }
+  
+  .support .support-parrents .support-content h4 {
+    font-size: 20px;
+    color: #17153c;
+    padding-bottom: 15px;
+      font-weight: 300;
+  }
+  
+  .support .support-parrents .support-content p {
+      line-height: 30px;
+      color: #3B3B3B;
+  }
+  
+  .support .support-parrents .support-content .support-btn {
+      padding: 50px 0px;
+  }
+  
+  .support .support-parrents .support-content a {
+    border: 2px solid #0365C4;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #0365C4;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .support .support-parrents .support-content a:hover {
+      border: 2px solid #04aeef;
+      background-color: #04aeef;
+      transition: 0.4s;
+  }
+  
+  .support .support-parrents .support-content {
+      position: relative;
+      right: 50px;
+  }
+  
+                            /* last Section (Earning) */
+  
+  .earning {
+      padding: 75px 0;
+  }
+  
+  .earning .earning-parrents {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .earning .earning-parrents .earning-content h4 {
+    font-size: 24px;
+    color: #17153c;
+    padding-bottom: 9px;
+      font-weight: 300;
+  }
+  
+  .earning .earning-parrents .earning-content h1 {
+      font-size: 48px;
+      color: #07324F;
+      font-weight: 700;
+      padding-bottom: 15px;
+  }
+  
+  .earning .earning-parrents .earning-content p {
+      line-height: 30px;
+      color: #3B3B3B;
+  }
+  
+  .earning .earning-parrents .earning-content .earning-btn {
+      padding: 50px 0;
+  }
+  
+  .earning .earning-parrents .earning-content a {
+    border: 2px solid #0365C4;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #0365C4;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;;
+  }
+  
+  .earning .earning-parrents .earning-content a:hover {
+      border: 2px solid #04aeef;
+      background-color: #04aeef;
+      transition: 0.4s;
+  }
